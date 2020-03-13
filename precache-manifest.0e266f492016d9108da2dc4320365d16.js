@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1d5afde0a3c40a841ca550f721eeed6",
+    "revision": "aaf3a6d19052ff3d066a24616b3187d6",
     "url": "/wikidata-live-changes/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wikidata-live-changes/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "26d9b5a1899d0297577d",
+    "revision": "034f5f540144966c3c35",
     "url": "/wikidata-live-changes/static/css/main.8c0551e2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wikidata-live-changes/static/js/2.84bc81e7.chunk.js.LICENSE"
   },
   {
-    "revision": "26d9b5a1899d0297577d",
-    "url": "/wikidata-live-changes/static/js/main.39a98a71.chunk.js"
+    "revision": "034f5f540144966c3c35",
+    "url": "/wikidata-live-changes/static/js/main.36b20824.chunk.js"
   },
   {
     "revision": "d8f4c14554234d0f2388",
