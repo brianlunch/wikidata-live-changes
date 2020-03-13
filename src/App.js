@@ -14,10 +14,14 @@ function App() {
   return (
   
     <div className="App">
-	<p>Tejjjjjjjjjst</p>
+	        <Navbar history={this.state.history} />
+        <TitleContainer
+          title="Wikidata Live"
+          subtitle="A web app to visualise recent changes to Wikidata in quasi real time."
+        ></TitleContainer>
       <Router history={history}>
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/" exact component={HomePage} />
           <Route exact path="/page" component={TestPage} />
           <Route
             exact
