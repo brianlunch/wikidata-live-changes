@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wikidata-live-changes/precache-manifest.eef69c127e63f8d723b99203cdf17135.js"
+  "/wikidata-live-changes/precache-manifest.71679b9db75fc8482894276d8535689f.js"
 );
 
 self.addEventListener('message', (event) => {
