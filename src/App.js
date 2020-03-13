@@ -12,6 +12,7 @@ import './App.css'
 
 function App() {
   return (
+  <p>Test</p>
     <div className="App">
       <Router history={history}>
         <Switch>
