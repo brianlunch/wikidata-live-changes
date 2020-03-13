@@ -22,10 +22,10 @@ function App() {
       <Router history={history}>
         <Switch>
           <Route exact ="/" component={HomePage} />
-          <Route path="/page" component={TestPage} />
+          <Route exact="/page" component={TestPage} />
           <Route
             exact	
-            path="/users-by-most-edits"
+            ="/users-by-most-edits"
             component={UsersByMostEditsPage}
           />
           <Route exact path="/most-active-users" component={MostActiveUsers} />
