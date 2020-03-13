@@ -7,24 +7,37 @@ import TestPage from './Pages/TestPage'
 import UsersByMostEditsPage from './Pages/UsersByMostEditsPage'
 import MostActiveUsers from './Pages/MostActiveUsers'
 import MostActivePages from './Pages/MostActivePages'
+import TitleContainer from './Components/TitleContainer'
+
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './Components/Navbar'
+
 import './App.css'
 
 function App() {
   return (
   
     <div className="App">
-	        <Navbar history={this.state.history} />
-        <TitleContainer
-          title="Wikidata Live"
-          subtitle="A web app to visualise recent changes to Wikidata in quasi real time."
-        ></TitleContainer>
+	       
+       
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+     
       <Router history={history}>
         <Switch>
           <Route exact path="/" exact component={HomePage} />
           <Route exact path="/page" component={TestPage} />
           <Route
-            exact
+            exact	
             path="/users-by-most-edits"
             component={UsersByMostEditsPage}
           />
