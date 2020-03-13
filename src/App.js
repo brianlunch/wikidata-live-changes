@@ -18,24 +18,11 @@ function App() {
   return (
   
     <div className="App">
-	       
-       
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
      
       <Router history={history}>
         <Switch>
-          <Route exact path="/" exact component={HomePage} />
-          <Route exact path="/page" component={TestPage} />
+          <Route exact ="/" component={HomePage} />
+          <Route path="/page" component={TestPage} />
           <Route
             exact	
             path="/users-by-most-edits"
