@@ -21,16 +21,16 @@ function App() {
      
       <Router history={history}>
         <Switch>
-          <Route path ="/" component={HomePage} />
-          <Route path="/page" component={TestPage} />
+          <Route exact path ="/" component={HomePage} />
+          <Route path="page" component={TestPage} />
           <Route
             path	
-            ="/users-by-most-edits"
+            ="users-by-most-edits"
             component={UsersByMostEditsPage}
           />
-          <Route path="/most-active-users" component={MostActiveUsers} />
-          <Route path="/most-active-pages" component={MostActivePages} />
-          <Route path="/feed" component={TestFeedData} />
+          <Route path="most-active-users" component={MostActiveUsers} />
+          <Route path="most-active-pages" component={MostActivePages} />
+          <Route path="feed" component={TestFeedData} />
         </Switch>
       </Router>
 	  <p>Tejst</p>
