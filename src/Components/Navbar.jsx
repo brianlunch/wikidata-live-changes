@@ -16,7 +16,7 @@ class NavbarLocal extends Component {
           <Nav>
             <Nav.Link
               as={Link}
-              to="/wikidata-live-changes"
+              to="/"
               className={
                 activePage.endsWith('/') ? 'nav-link--active' : 'nav-link'
               }
