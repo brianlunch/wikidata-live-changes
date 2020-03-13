@@ -12,8 +12,9 @@ import './App.css'
 
 function App() {
   return (
-  <p>Test</p>
+  
     <div className="App">
+	<p>Tejjjjjjjjjst</p>
       <Router history={history}>
         <Switch>
           <Route exact path="/" component={HomePage} />
