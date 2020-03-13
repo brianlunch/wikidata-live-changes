@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wikidata-live-changes/static/css/main.8c0551e2.chunk.css",
-    "main.js": "/wikidata-live-changes/static/js/main.febf7b88.chunk.js",
-    "main.js.map": "/wikidata-live-changes/static/js/main.febf7b88.chunk.js.map",
+    "main.js": "/wikidata-live-changes/static/js/main.8458888a.chunk.js",
+    "main.js.map": "/wikidata-live-changes/static/js/main.8458888a.chunk.js.map",
     "runtime-main.js": "/wikidata-live-changes/static/js/runtime-main.c834f876.js",
     "runtime-main.js.map": "/wikidata-live-changes/static/js/runtime-main.c834f876.js.map",
     "static/css/2.47e06e2e.chunk.css": "/wikidata-live-changes/static/css/2.47e06e2e.chunk.css",
     "static/js/2.49b4cefc.chunk.js": "/wikidata-live-changes/static/js/2.49b4cefc.chunk.js",
     "static/js/2.49b4cefc.chunk.js.map": "/wikidata-live-changes/static/js/2.49b4cefc.chunk.js.map",
     "index.html": "/wikidata-live-changes/index.html",
-    "precache-manifest.9ee4881c3aa645b8e94af072eaeeae69.js": "/wikidata-live-changes/precache-manifest.9ee4881c3aa645b8e94af072eaeeae69.js",
+    "precache-manifest.dc0a5bee9395059093cd2ad60cc59cb5.js": "/wikidata-live-changes/precache-manifest.dc0a5bee9395059093cd2ad60cc59cb5.js",
     "service-worker.js": "/wikidata-live-changes/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/wikidata-live-changes/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.8c0551e2.chunk.css.map": "/wikidata-live-changes/static/css/main.8c0551e2.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.49b4cefc.chunk.js",
     "static/css/main.8c0551e2.chunk.css",
-    "static/js/main.febf7b88.chunk.js"
+    "static/js/main.8458888a.chunk.js"
   ]
 }
