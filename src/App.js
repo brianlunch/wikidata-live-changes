@@ -14,10 +14,9 @@ function App() {
   return (
   
     <div className="App">
-	<p>Tejjjjjjjjjst</p>
       <Router history={history}>
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/" èxact component={HomePage} />
           <Route exact path="/page" component={TestPage} />
           <Route
             exact
