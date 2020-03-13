@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  --red: #9a0000;
+  --green: #2d9b63;
+  --blue: #006599;
+  --p: #000000;
+  --b: #ffffff;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Graph-Container-Card {
+  min-width: 300px;
+  height: 200px;
+  padding: 0;
+}
+
+.full-graph-container {
+  min-width: 300px;
+  height: 80vh;
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--p);
+  font-size: 1.12rem;
+  font-weight: 500;
+}
+
+.nav-link--active,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: var(--p) !important;
+  border-bottom: 3px solid var(--p);
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.deck-container {
+  padding: 2%;
+  justify-content: start;
+}
+
+.deck {
+  margin-bottom: 2%;
+}
+
+.card-title {
+  text-align: left;
+  justify-content: left;
+}
+
+.graph-card:hover {
+  filter: brightness(90%);
+  cursor: pointer;
+}
+
+.Graph-Container-Card:hover {
+  cursor: pointer;
+}
+
+.iframe-container {
+  overflow: hidden;
+  width: 40vw;
+  height: 40vh;
+  padding: 0;
+  overflow: hidden;
+}
+
+iframe {
+  width: 100vw;
+  height: 100vh;
+  zoom: 0.75;
+  -ms-zoom: 0.75;
+  transform: scale(0.75);
+  transform-origin: 0 0;
+  -moz-transform: scale(0.75);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.75);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.75);
+  -webkit-transform-origin: 0 0;
+}
