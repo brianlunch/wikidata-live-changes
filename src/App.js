@@ -16,7 +16,7 @@ function App() {
       <Router history={history}>
         <Switch>
           <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
-          <Route exact path={process.env.PUBLIC_URL + '/page'} component={TestPage} />
+          <Route exact path={'/page'} component={TestPage} />
           <Route
             exact
             path="/users-by-most-edits"
